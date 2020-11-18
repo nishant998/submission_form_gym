@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> #{title} </title>
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap" rel="stylesheet">
+    style
+      include ../Static/design.css
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About us</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <div id="welcome">Welcome &nbsp;&nbsp;to &nbsp;&nbsp;our &nbsp;&nbsp;gym </div>
+        <div class="form">
+            <form action="/" method= "POST" id="form">
+                    <label for="Fname">First Name </label>
+                    <input type="text" name="Fname" id="Fname" class = "inputcls">
+
+                    <label for="Lname">Last Name </label>
+                    <input type="text" name="Lname" id="Lname" class = "inputcls">
+
+                    <label for="MoNo">Mobile no </label>
+                    <input type="text" name="MoNo" id="MoNo" class = "inputcls">
+
+                    <label for="SGym">Suggestions for Gym </label>
+                    <textarea id="SGym" name="SGym" rows="8" cols="50" class= "inputcls"></textarea>
+
+                    <button  id="formsub">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
